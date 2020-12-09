@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-mail Editor</title>
+	<link rel="stylesheet" type="text/css" href="dingdang.css">
+</head>
+<body>
+	<form  id="main"  action="status.html">
+		<h1>Compose e-mail message.</h1>
+		<a href="help.html" class="help">Help</a>
+		<table>
+			<tr>
+				<td>
+					<label>To:</label>
+				</td>
+				<td>
+					<input type="text" name="to">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>From:</label>
+				</td>
+				<td>
+					<input type="text" name="from">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Cc:</label>
+				</td>
+				<td>
+					<input type="text" name="cc">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Subject:</label>
+				</td>
+				<td>
+					<input type="text" name="subject">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Message:</label>
+				</td>
+				<td>
+					<textarea name="message" rows="10"></textarea> 
+				</td>
+			</tr>
+		</table>
+		<input type="submit" name="Send">
+		<input type="reset" name="Cancel">
+	</form>
+	
+</body>
+</html>

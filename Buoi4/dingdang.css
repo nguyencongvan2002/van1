@@ -1,0 +1,48 @@
+body{
+	background-color: rgb(255,255,240);
+	padding-left: 20%;
+}
+textarea{
+	scrollbar-3dlight-color:#C0C0C0;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: black;
+	scrollbar-face-color: gray;
+}
+.inghelp{
+	cursor: help;
+}
+emaileditor{
+	background-color: #FFFFDD;
+}
+#main{
+	width: 400px;
+	background-color: #DDFFEE;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 15px;
+}
+#help{
+	position: relative;
+	width: 500px;
+	height: 420px;
+	margin-top: 10px;
+	background-color: #cfc;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: none;
+	border: solid 2px; 
+	border-color: #E4E7E7; 
+	color: #303030;
+}
+close{
+	text-align: right;
+	color: blue;
+	cursor: hand;
+}
+ul li{
+	list-style: square;
+	position: inside;
+}
+.help{
+	float: right;
+}
