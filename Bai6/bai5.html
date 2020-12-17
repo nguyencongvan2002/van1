@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a,b,c;
+		a = prompt('nhap a')
+		b = prompt('nhap b')
+		c = prompt('nhap c')
+		delta = (b*b) - 4 *a *c;
+		if(delta < 0){
+			document.write('phuong trinh vo nhiem')
+		}else if(delta == 0){
+			document.write('phuong trinh co mot nhiem: ')
+			a = -b/(2*a)
+		}else{
+			document.write('phuong trinh co 2 nhiem phan biet: ')
+			a1 = (-b + Math.sqrt(delta))/(2*a);
+			a2 = (-b - Math.sqrt(delta))/(2*a);
+			document.write('x1 =' +a1 +'<br>')
+			document.write('x2 =' +a2)
+
+		}
+	</script>
+</body>
+</html>
